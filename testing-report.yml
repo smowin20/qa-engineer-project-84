@@ -5,7 +5,7 @@
 
   - summary: |
   Проверка успешного оформления заказа
-  status: pass
+  status: fail
   
   - summary: |
   Удаление товаров из корзины
@@ -65,7 +65,7 @@
   
   - summary: |
   Проверка успешного оформления заказа.(english)
-  status: pass
+  status: fail
   
   - summary: |
   Удаление товаров из корзины.(english)
