@@ -18,7 +18,7 @@ test-cases:
   status: pass
   
   - summary: |
-  Возвращение к списку товаров
+  Возвращение к списку товаров из корзины
   status: pass
   
   - summary: |
@@ -82,7 +82,7 @@ test-cases:
   status: pass
   
   - summary: |
-  Возвращение к списку товаров.(english)
+  Возвращение к списку товаров из корзины.(english)
   status: pass
   
   - summary: |
