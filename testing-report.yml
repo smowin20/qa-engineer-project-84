@@ -1,122 +1,122 @@
 ---
   - summary: |
       Проверка успешного добавления товара в корзину
-  status: pass
+    status: pass
 
   - summary: |
       Проверка успешного оформления заказа
-  status: fail
+    status: fail
 
   - summary: |
       Возвращение в корзину после успешного заказа
-  status: fail
+    status: fail
   
   - summary: |
       Удаление товаров из корзины
-  status: pass
+    status: pass
   
   - summary: |
       Возвращение к списку товаров из корзины
-  status: pass
+    status: pass
   
   - summary: |
       Уменьшение количества заказываемого товара
-  status: pass
+    status: pass
   
   - summary: |
       Возвращение к списку товаров
-  status: pass
+    status: pass
   
   - summary: |
       Переход на следующую страницу с товарами
-  status: pass
+    status: pass
   
   - summary: |
       Переход на предыдущую страницу с товарами
-  status: pass
+    status: pass
   
   - summary: |
       Фильтрация товаров по производителю
-  status: pass
+    status: pass
   
   - summary: |
       Возврат к списку товаров без фильтрации
-  status: pass
+    status: pass
   
   - summary: |
       Фильтрация товаров по категории
-  status: pass
+    status: pass
   
   - summary: |
       Фильтрация товаров по наличию
-  status: pass
+    status: pass
   
   - summary: |
       Фильтрация товаров по цене 
-  status: pass
+    status: pass
   
   - summary: |
       Ввод значений цены
-  status: pass
+    status: pass
   
   - summary: |
       Проверка успешного добавления товара в корзину на английской версии сайта
-  status: pass
+    status: pass
   
   - summary: |
       Проверка успешного оформления заказа на английской версии сайта
-  status: fail
+    status: fail
 
   - summary: |
       Возвращение в корзину после успешного заказа на английской версии сайта
-  status: fail
+    status: fail
   
   - summary: |
       Удаление товаров из корзины на английской версии сайта
-  status: pass
+    status: pass
   
   - summary: |
       Возвращение к списку товаров из корзины на английской версии сайта
-  status: pass
+    status: pass
   
   - summary: |
       Уменьшение количества заказываемого товара на английской версии сайта
-  status: pass
+    status: pass
   
   - summary: |
       Возвращение к списку товаров на английской версии сайта
-  status: pass
+    status: pass
   
   - summary: |
       Переход на следующую страницу с товарами на английской версии сайта
-  status: pass
+    status: pass
   
   - summary: |
       Переход на предыдущую страницу с товарами на английской версии сайта
-  status: pass
+    status: pass
   
   - summary: |
       Фильтрация товаров по производителю на английской версии сайта
-  status: pass
+    status: pass
   
   - summary: |
       Возврат к списку товаров без фильтрации на английской версии сайта
-  status: pass
+    status: pass
   
   - summary: |
       Фильтрация товаров по категории на английской версии сайта
-  status: pass
+    status: pass
   
   - summary: |
       Фильтрация товаров по наличию на английской версии сайта
-  status: pass
+    status: pass
 
   - summary: |
       Фильтрация товаров по цене на английской версии сайта
-  status: pass
+    status: pass
   
   - summary: |
       Ввод значений цены на английской версии сайта
-  status: pass
+    status: pass
   
   bugreports: []
