@@ -1,0 +1,143 @@
+---
+test-cases:
+---
+  - summary: |
+  Проверка успешного добавления товара в корзину.
+  status: pass
+
+  - summary: |
+  Проверка успешного оформления заказа
+  status: fail
+
+  - summary: |
+  Возвращение в корзину после успешного заказа.
+  status: fail
+  
+  - summary: |
+  Удаление товаров из корзины
+  status: pass
+  
+  - summary: |
+  Возвращение к списку товаров
+  status: pass
+  
+  - summary: |
+  Уменьшение количества заказываемого товара
+  status: pass
+  
+  - summary: |
+  Возвращение к списку товаров
+  status: pass
+  
+  - summary: |
+  Переход на следующую страницу с товарами.
+  status: pass
+  
+  - summary: |
+  Переход на предыдущую страницу с товарами.
+  status: pass
+  
+  - summary: |
+  Фильтрация товаров по производителю
+  status: pass
+  
+  - summary: |
+  Возврат к списку товаров без фильтрации.
+  status: pass
+  
+  - summary: |
+  Фильтрация товаров по категории
+  status: pass
+  
+  - summary: |
+  Фильтрация товаров по наличию
+  status: pass
+  
+  - summary: |
+  Фильтрация товаров по отсутствию
+  status: fail
+  
+  - summary: |
+  Фильтрация товаров по цене 
+  status: pass
+  
+  - summary: |
+  Ввод значений цены
+  status: pass
+  
+  - summary: |
+  Проверка успешного добавления товара в корзину.(english)
+  status: pass
+  
+  - summary: |
+  Проверка успешного оформления заказа.(english)
+  status: fail
+
+  - summary: |
+  Возвращение в корзину после успешного заказа.(english)
+  status: fail
+  
+  - summary: |
+  Удаление товаров из корзины.(english)
+  status: pass
+  
+  - summary: |
+  Возвращение к списку товаров.(english)
+  status: pass
+  
+  - summary: |
+  Уменьшение количества заказываемого товара.(english)
+  status: pass
+  
+  - summary: |
+  Возвращение к списку товаров.(english)
+  status: pass
+  
+  - summary: |
+  Переход на следующую страницу с товарами.(english)
+  status: pass
+  
+  - summary: |
+  Переход на предыдущую страницу с товарами.(english)
+  status: pass
+  
+  - summary: |
+  Фильтрация товаров по производителю.(english)
+  status: pass
+  
+  - summary: |
+  Возврат к списку товаров без фильтрации.(english)
+  status: pass
+  
+  - summary: |
+  Фильтрация товаров по категории.(english)
+  status: pass
+  
+  - summary: |
+  Фильтрация товаров по наличию.(english)
+  status: pass
+  
+- summary: |
+  Фильтрация товаров по отстутсвию.(english)
+  status: fail
+  
+  - summary: |
+  Фильтрация товаров по цене.(english)
+  status: pass
+  
+  - summary: |
+  Ввод значений цены.(english)
+  status: pass
+  
+
+bugreports:
+  - summary: |
+      Короткое описание ошибки
+    environment: |
+      Ссылка на билд/коммит/версия ПО и всего окружения
+    steps-to-reproduce: |
+      Полный перечень шагов для воспроизведения и описание, на каком шаге произошла ошибка
+    expected-result: |
+      Какой результат должен был быть без ошибки
+    actual-result: |
+      Какой результат получился на самом деле
