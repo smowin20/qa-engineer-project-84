@@ -59,13 +59,39 @@ test-cases:
 bugreports:
   - summary: |
       После деактивации чекбокса "в наличии" пропадает кнопка "следующая" отвечающая за переход на следующую страницу и не показываются товары, которых нет в наличии
-  environment: |
+    environment: |
       Яндекс браузер Версия 25.2.1.887 (64-bit)   
       ОС Windows 10 x64
-  steps-to-reproduce: |
+    steps-to-reproduce: |
       1. Зайти на страницу https://hexlet-products-store.vercel.app/
       2. Деактивировать чекбокс "в наличии"
-  expected-result: |
+    expected-result: |
       Отобразятся товары которых нет в наличии
-  actual-result: |
+    actual-result: |
       Не отображаются товары которых нет в наличии, пропадает кнопка "следующая" в верхней части страницы
+
+  - summary: |
+      При выборе производителя поле для поиска увеличивается и меняет расположение товаров
+    environment: |
+      Яндекс браузер Версия 25.2.1.887 (64-bit)   
+      ОС Windows 10 x64
+    steps-to-reproduce: |
+      1. Зайти на страницу https://hexlet-products-store.vercel.app/
+      2. Выбрать категорию, например - "Dior"
+    expected-result: |
+      Поле для поиска стандартного размера
+    actual-result: |
+      Поле поиска увеличилось.
+
+- summary: |
+      При выборе категории отображаются не все товары
+    environment: |
+      Яндекс браузер Версия 25.2.1.887 (64-bit)   
+      ОС Windows 10 x64
+    steps-to-reproduce: |
+      1. Зайти на страницу https://hexlet-products-store.vercel.app/
+      2. Выбрать любую категорию, например - "Beauty"
+    expected-result: |
+      Отобразятся все товары выбранной категории
+    actual-result: |
+      Отображаются товары выбранной категории, но не все
